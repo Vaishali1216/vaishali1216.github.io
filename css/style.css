@@ -1,0 +1,305 @@
+.icon
+{
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+	.icon:before
+	{
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-family: FontAwesome;
+		font-style: normal;
+		font-weight: normal;
+		text-transform: none !important;
+	}
+
+	.icon > .label 
+	{
+		display: none;
+	}
+
+	.icon.alt 
+	{
+		text-decoration: none;
+	}
+
+		.icon.alt:before 
+		{
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon.alt:before 
+		{
+			color: #1c1d26 !important;
+			text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+		}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+  color: transparent;
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+/*
+<!--#section5 {padding-top:50px;height:701px;color: #000000; background-color: #A9A9A9;}-->
+<!--     #myNavbar {color: #1E88E5; background-color: #ffffff;} -->
+*/
+
+#Home {
+	
+	/*background: url("http://wallpoper.com/images/00/34/39/15/circuit-pcb_00343915.jpg") no-repeat center center;
+  	background-size: cover;
+	height: 100vh;
+	background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .8; */
+	
+	padding-top:50px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+  	/*height:771px;*/
+	color: #ffffff;
+	background-color: #272833;
+	overflow-y:auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	/* vertically aligns items */
+  	align-items: center;
+  	/* horizontally aligns items */
+}
+
+#Bio {
+	padding-top:50px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+  	/*height:771px;*/
+	color: #000000; 
+	background-color: #A9A9A9;
+	overflow-y:auto;
+	/*display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	*/
+}
+
+#WorkExperience {
+	padding-top:50px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+    /*height:771px;*/
+	color: #272833; 
+	background-color: #ffffff;
+	overflow-y:auto;
+}
+
+#Projects {
+	padding-top:50px;
+	min-height: calc(690px * (90/150));
+  	height: 100vh;
+	/*height:771px;*/
+	color: #000000; 
+	background-color: #A9A9A9;
+	overflow-y:auto;
+/*	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;*/
+}
+
+#AboutMe {
+	padding-top:50px;
+	min-height: calc(690px * (90/150));
+  	height: 87vh;
+	color: #ffffff; 
+	background-color: #272833;
+	overflow-y:auto;
+	text-align: left;
+/*	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+*/
+}
+
+#footer {
+	/*padding-top:50px;*/
+	/*min-height: calc(690px * (90/150));*/
+  	height: 10vh;
+	color: #272833; 
+	background-color: #A9A9A9;
+	overflow-y:auto;
+	text-align: left;
+/*	display: flex;
+	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+*/
+}
+
+/*#section7 {
+	background-color: #A9A9A9;
+}*/
+
+
+#Name{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 300%;
+}
+
+#tagline{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 200%;
+}
+
+#pageheads{
+text-align: center;
+font-family: 'Lato', sans-serif;
+font-size: 320%;
+}
+
+#intro {
+text-align: justify;
+}
+
+
+#workcaption{
+
+}
+
+#workdesc{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 120%;
+	text-align: left;
+}
+
+#resume_spot{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+ 	font-size: 150%;
+}
+
+#projectcaption
+{
+/*	font-family:"arial";
+	font-weight: bold;
+ 	font-size: 200%;*/
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+ 	font-size: 200%;
+}
+
+#projectdesc
+{
+	font-family:"helvetica neue";
+ 	font-size: 60%;
+	text-align: justify;
+}
+
+#hobbydesc
+{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 150%;
+	text-align: left;
+}
+
+
+
+
+
+/*
+#banner
+{
+	background-attachment: fixed;
+	background-color: #add8e6;
+	background-image: url("ncsa_vertical.jpg");
+	background-position: center center;
+	background-size: cover;
+	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+	min-height: 100vh;
+	position: relative;
+	text-align: center;
+	z-index: 21;
+}
+
+	#banner .content 
+	{
+		display: inline-block;
+		margin-right: 1%;
+		max-width: 95%;
+		padding: 6em;
+		position: relative;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 1;
+	}
+
+		#banner .content header 
+		{
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+		#banner .content header h2 
+		{
+			color: white;
+			font-size: 3.5em;
+			margin: 0;
+		}
+
+		#banner .content header h3 
+		{
+			color: white;
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		#banner .content header p 
+		{
+			margin: 0.5em 0 0 0;
+			top: 0;
+		}
+			
+		#banner .content .image 
+		{
+			border-radius: 100%;
+			display: inline-block;
+			height: 18em;
+			margin-left: 3em;
+			vertical-align: middle;
+			width: 18em;
+		}
+
+		#banner .content .image img 
+		{
+			border-radius: 100%;
+			display: block;
+			width: 100%;
+		}
+*/
+
+
+
